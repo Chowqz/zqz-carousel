@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+.carousel {
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel-list {
+    position: relative;
+}
+
+.carousel-item {
+    position: absolute;
+}
+
+.carousel-btn {
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    background-image: url('./icon/nextBtn.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.carousel-btn.prev-btn {
+    transform: rotate(180deg);
+    left: 0;
+}
+
+.carousel-btn.next-btn {
+    right: 0;
+}
