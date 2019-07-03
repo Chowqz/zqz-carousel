@@ -1,7 +1,8 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 li {
     list-style: none;
 }
@@ -17,6 +18,13 @@ li {
 
 .carousel-item {
     position: absolute;
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .carousel-btn {
